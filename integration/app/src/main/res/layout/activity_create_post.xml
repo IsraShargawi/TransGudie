@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_marginTop="116dp"
+        android:text="say something"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="356dp"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="167dp"
+        android:background="@drawable/button_shape"
+        android:padding="12dp"
+        android:text="Post"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+</RelativeLayout>

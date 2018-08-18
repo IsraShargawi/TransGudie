@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    tools:context="com.sourcey.materiallogindemo.Posts.PostActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/chatroom"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_post"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/addPost"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginStart="180dp"
+        android:background="@drawable/button_post"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/add"
+        android:layout_width="65dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/add"
+        android:onClick="headingToCreate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="63dp" />-->
+
+</RelativeLayout>

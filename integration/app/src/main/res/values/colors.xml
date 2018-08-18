@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#fdfdfd</color>
+  <color name="primary_dark">#292929</color>
+  <color name="primary_darker">#151515</color>
+  <color name="pruple_khafif">#a272ca</color>
+  <color name="accent">#2196F3</color>
+  <color name="colorPrimary">#2196f3</color>
+  <color name="colorPrimaryDark">#5b5bab</color>
+  <color name="black">#000000</color>
+  <color name="jet">#202023</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#1bc6c3</color>
+  <color name="jumbo">#20e6d5</color>
+  <!-->for toolbar<!-->
+  <color name="toolbar_color">#202023</color>
+  <color name="button">#b68fb6</color>
+  <color name="like_icon_activated">#FF5252</color>
+
+<color name="blue">#2196F3</color>
+  <color name="aluminum">#d4c0d4</color>
+  <color name="base">#000000</color>
+  <!-->color of text <!-->
+  <color name="iron">#292A30</color>
+  <!-->color of button and when floating out<!-->
+  <color name="white">#bebbbb</color>
+  <color name="green">#2196F3</color>
+  <color name="orange">#ff7f20</color>
+</resources>

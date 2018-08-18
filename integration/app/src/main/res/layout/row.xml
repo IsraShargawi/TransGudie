@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="ewrwerwerwer"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtDesc"
+        android:layout_alignTop="@+id/txtName"
+        android:text="erewrwer" />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="61dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/index"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="284dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:background="@drawable/back"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="postdesc" />
+
+    <LinearLayout
+        android:layout_width="72dp"
+        android:layout_height="27dp"
+        android:layout_alignEnd="@+id/profile_image"
+        android:layout_alignRight="@+id/profile_image"
+        android:layout_below="@+id/profile_image"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/like"
+            android:layout_width="13dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/like"
+            android:padding="20dp"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/unlike"
+            android:layout_width="13dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_like_active"
+            android:padding="20dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/likenum"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
